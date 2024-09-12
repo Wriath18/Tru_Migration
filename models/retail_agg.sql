@@ -10,7 +10,7 @@ SELECT
     COUNT(DISTINCT Invoice_Number) AS NumberOfInvoices,
     COUNT(DISTINCT Customer_ID) AS NumberOfCustomers,
     SUM(Quantity) AS TotalQuantity,
-    SUM(TotalAmount) AS TotalRevenue,
+    SUM(TotalAmount) AS Total_sRevenue,
     AVG(TotalAmount) AS AverageOrderValue,
     COUNT(DISTINCT StockCode) AS NumberOfUniqueItems
 FROM silver_data
